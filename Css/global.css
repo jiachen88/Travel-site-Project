@@ -1,1 +1,47 @@
-.main-header {}
+* {
+    font-family: Verdana;
+
+}
+
+.main-header {
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    top: 0;
+    max-width: 100%;
+    padding-right: 6rem;
+}
+
+.main-header__list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header__nav {
+    margin-left: 47rem;
+}
+
+.main-header__logo {
+    text-decoration: none;
+    color: #335576;
+    display: inline-block;
+    font-weight: 700;
+    padding: .625rem;
+    margin-left: 5rem;
+}
+
+.main-header__item {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.main-header__link {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: .625rem;
+}
