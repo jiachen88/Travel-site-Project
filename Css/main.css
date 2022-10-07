@@ -14,12 +14,13 @@ img {
     height: 28.125rem;
     object-fit: contain;
     padding: 3.125rem;
+    margin-top: 2rem;
 }
 
 .main-section__head {
     color: #335576;
     font-size: 2rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
     font-size: 2.5rem;
 }
 
@@ -37,4 +38,23 @@ img {
     height: 2.5rem;
     margin-left: 0rem;
 
+}
+
+.main-content {
+    display: flex;
+
+
+}
+
+.main-content__hawaii {
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.main-content__iceland {
+    width: 20rem;
+}
+
+.main-content__greece {
+    width: 20rem;
 }
