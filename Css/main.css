@@ -42,17 +42,39 @@ img {
 
 .main-content {
     display: flex;
+    position: relative;
+}
 
+.main-content__destinationh {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 55rem;
+    color: white;
+}
 
+.main-content__destinationi {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 32rem;
+    color: white;
+}
+
+.main-content__destinationg {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 9rem;
+    color: white;
 }
 
 .main-content__hawaii {
     width: 20rem;
-    border-radius: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
 .main-content__iceland {
     width: 20rem;
+    margin-right: 3rem;
 }
 
 .main-content__greece {
