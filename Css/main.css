@@ -15,6 +15,7 @@ img {
     object-fit: contain;
     padding: 3.125rem;
     margin-top: 2rem;
+
 }
 
 .main-section__head {
@@ -45,24 +46,31 @@ img {
     position: relative;
 }
 
+.main-content__head {
+    color: #335576;
+    position: relative;
+    left: 3.8rem;
+    top: 3.8rem;
+}
+
 .main-content__destinationh {
     position: absolute;
     bottom: 3.5rem;
-    right: 55rem;
+    right: 52rem;
     color: white;
 }
 
 .main-content__destinationi {
     position: absolute;
     bottom: 3.5rem;
-    right: 32rem;
+    right: 29rem;
     color: white;
 }
 
 .main-content__destinationg {
     position: absolute;
     bottom: 3.5rem;
-    right: 9rem;
+    right: 6rem;
     color: white;
 }
 
@@ -70,11 +78,13 @@ img {
     width: 20rem;
     margin-right: 3rem;
     margin-left: 3rem;
+
 }
 
 .main-content__iceland {
     width: 20rem;
     margin-right: 3rem;
+
 }
 
 .main-content__greece {

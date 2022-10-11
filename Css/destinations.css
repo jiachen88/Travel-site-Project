@@ -1,0 +1,45 @@
+ .main-destination {
+     position: relative;
+     display: flex;
+ }
+
+ .main-footer__instagram-destination,
+ .main-footer__facebook-destination,
+ .main-footer__twitter-destination {
+     width: 1.5rem;
+     height: 1.5rem;
+     position: absolute;
+ }
+
+ .main-footer__instagram-destination {
+     width: 1.5rem;
+     height: 1.5rem;
+     top: 6rem;
+     right: 17.5rem;
+
+ }
+
+ .main-footer__facebook-destination {
+     width: .8rem;
+     height: 1.5rem;
+     top: 6rem;
+     right: 15rem;
+
+ }
+
+ .main-footer__twitter-destination {
+     width: 1.5rem;
+     height: 1.5rem;
+     top: 6rem;
+     right: 12rem;
+
+ }
+
+ .main-destination__header {
+     color: white;
+     position: absolute;
+     font-size: 4rem;
+     top: 5rem;
+     left: 7rem;
+
+ }

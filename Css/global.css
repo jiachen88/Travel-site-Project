@@ -1,7 +1,13 @@
 * {
     font-family: Verdana;
-
 }
+
+body {
+    margin: 0;
+    height: 100%;
+    max-width: 1280px;
+}
+
 
 .main-header {
     background-color: #ffffff;
@@ -44,4 +50,363 @@
     display: inline-block;
     color: black;
     padding: .625rem;
+}
+
+.main-footer {
+    background-color: #FEFAF5;
+    display: flex;
+    position: relative;
+    padding: 5rem;
+}
+
+.main-footer__heading1 {
+    color: #335576;
+    left: 10rem;
+    bottom: 5rem;
+    position: absolute
+}
+
+.main-footer__heading2 {
+    color: #335576;
+    position: absolute;
+    left: 23rem;
+    bottom: 5rem;
+}
+
+.main-footer__heading3 {
+    color: #335576;
+    position: absolute;
+    right: 15rem;
+    bottom: 5rem;
+}
+
+.main-footer__title-email {
+    position: absolute;
+    left: 10rem;
+    top: 5.5rem;
+    color: #DB7A4E;
+    font-size: .7rem;
+}
+
+.main-footer__title-weekday {
+    position: absolute;
+    color: #DB7A4E;
+    font-size: .7rem;
+    top: 5.5rem;
+    left: 23rem;
+}
+
+.main-footer__title-sat {
+    position: absolute;
+    color: #DB7A4E;
+    font-size: .7rem;
+    top: 5.5rem;
+    left: 35rem;
+}
+
+.main-footer__title-sun {
+    position: absolute;
+    color: #DB7A4E;
+    font-size: .7rem;
+    top: 5.5rem;
+    left: 47rem;
+}
+
+.main-footer__info {
+    position: absolute;
+    color: #335576;
+    font-size: .9rem;
+    top: 7rem;
+    left: 10rem;
+
+}
+
+.main-footer__weektime {
+    position: absolute;
+    color: #335576;
+    font-size: .9rem;
+    top: 7rem;
+    left: 23rem;
+}
+
+.main-footer__sattime {
+    position: absolute;
+    color: #335576;
+    font-size: .9rem;
+    top: 7rem;
+    right: 36rem;
+}
+
+.main-footer__suntime {
+    position: absolute;
+    color: #335576;
+    font-size: .9rem;
+    top: 7rem;
+    right: 29.5rem;
+}
+
+.main-footer__instagram {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 1.4rem;
+    right: 14.5rem;
+    position: absolute;
+}
+
+.main-footer__facebook {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 1.4rem;
+    right: 12.5rem;
+    position: absolute;
+}
+
+.main-footer__twitter {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 1.4rem;
+    right: 10.5rem;
+    position: absolute;
+}
+
+.main-destination-hawaii {
+    background-image: url(../Assets/Images/hawaii.jpg);
+    display: flex;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+
+.main-destination-iceland {
+    background-image: url(../Assets/Images/iceland.jpg);
+    display: flex;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+
+.main-destination-greece {
+    background-image: url(../Assets/Images/greece.jpg);
+    display: flex;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+
+.main-destination__header {
+    margin-top: 3rem;
+}
+
+.main-destination__container {
+    background: white;
+    height: 22rem;
+    width: 15rem;
+    position: relative;
+    top: 16rem;
+    left: 15.5rem;
+    border-radius: 5px;
+    margin-right: 3rem;
+}
+
+.main-destination__friday {
+    padding-left: 5rem;
+}
+
+.main-destination__fridayhr {
+    color: black;
+    width: 13rem;
+    border: solid black;
+    position: relative;
+    bottom: .8rem;
+    right: 4rem;
+}
+
+.main-destination__saturday {
+    padding-left: 4rem;
+}
+
+.main-destination__saturdayhr {
+    color: black;
+    width: 13rem;
+    border: solid black;
+    position: relative;
+    bottom: .8rem;
+    right: 3rem;
+}
+
+.main-destination__sunday {
+    padding-left: 4.5rem;
+}
+
+.main-destination__sundayhr {
+    color: black;
+    width: 13rem;
+    border: solid black;
+    position: relative;
+    bottom: .8rem;
+    right: 3.5rem;
+}
+
+.main-destination__breakfast {
+    background-color: #FEFAF5;
+    position: relative;
+    left: 5rem;
+    width: rem;
+
+}
+
+.main-destination__mini1,
+.main-destination__mini2,
+.main-destination__mini3,
+.main-destination__mini4,
+.main-destination__mini5,
+.main-destination__mini6,
+.main-destination__mini7,
+.main-destination__mini8,
+.main-destination__mini9,
+.main-destination__mini10,
+.main-destination__mini11,
+.main-destination__mini12 {
+    background: #FEFAF5;
+    height: 3rem;
+    width: 11rem;
+    position: absolute;
+    bottom: 26rem;
+    left: 17.5rem;
+    border-radius: 5px;
+    margin-right: 3rem;
+}
+
+.main-destination__mini2 {
+    bottom: 22rem;
+    left: 17.5rem;
+}
+
+.main-destination__mini3 {
+    bottom: 18rem;
+    left: 17.5rem;
+}
+
+.main-destination__mini4 {
+    bottom: 14rem;
+    left: 17.5rem;
+}
+
+.main-destination__mini5 {
+    bottom: 26rem;
+    left: 35.5rem;
+}
+
+.main-destination__mini6 {
+    bottom: 22rem;
+    left: 35.5rem;
+}
+
+.main-destination__mini7 {
+    bottom: 18rem;
+    left: 35.5rem;
+}
+
+.main-destination__mini8 {
+    bottom: 14rem;
+    left: 35.5rem;
+}
+
+.main-destination__mini9 {
+    bottom: 26rem;
+    left: 53.5rem;
+}
+
+.main-destination__mini10 {
+    bottom: 22rem;
+    left: 53.5rem;
+}
+
+.main-destination__mini11 {
+    bottom: 18rem;
+    left: 53.5rem;
+}
+
+.main-destination__mini12 {
+    bottom: 14rem;
+    left: 53.5rem;
+}
+
+.main-destination__activity1,
+.main-destination__activity2,
+.main-destination__activity3,
+.main-destination__activity4,
+.main-destination__activity5,
+.main-destination__activity6,
+.main-destination__activity7,
+.main-destination__activity8,
+.main-destination__activity9,
+.main-destination__activity10,
+.main-destination__activity11,
+.main-destination__activity12 {
+    position: absolute;
+    left: 21rem;
+    top: 19.3rem;
+    font-size: 1rem;
+}
+
+.main-destination__activity2 {
+    left: 21rem;
+    top: 23.3rem;
+}
+
+.main-destination__activity3 {
+    left: 21rem;
+    top: 27.3rem;
+}
+
+.main-destination__activity4 {
+    left: 21rem;
+    top: 31.3rem;
+}
+
+.main-destination__activity5 {
+    left: 39rem;
+    top: 19.3rem;
+}
+
+.main-destination__activity6 {
+    left: 39rem;
+    top: 23.3rem;
+}
+
+.main-destination__activity7 {
+    left: 39rem;
+    top: 27.3rem;
+}
+
+.main-destination__activity8 {
+    left: 39rem;
+    top: 31.3rem;
+}
+
+.main-destination__activity9 {
+    left: 57rem;
+    top: 19.3rem;
+}
+
+.main-destination__activity10 {
+    left: 57rem;
+    top: 23.3rem;
+}
+
+.main-destination__activity11 {
+    left: 57rem;
+    top: 27.3rem;
+}
+
+.main-destination__activity12 {
+    left: 57rem;
+    top: 31.3rem;
 }
